@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Blog Home</title>
+    <title>Blog - @yield('title')</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="front/css/bootstrap.min.css" rel="stylesheet">
@@ -35,8 +35,7 @@
         <div class="col-md-8">
 
             <h1 class="page-header">
-                Page Heading
-                <small>Secondary Text</small>
+                @yield('page-heading')
             </h1>
 
             <!-- First Blog Post -->
